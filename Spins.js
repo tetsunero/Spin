@@ -1,4 +1,4 @@
-function Spinner(div, src, frames) {
+function Spinner(div, src, frames) {as
 	this.div = div;
 	this.src = src || div.dataset.src;
 	this.frameCount = frames || div.dataset.frames || 36;
